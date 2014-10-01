@@ -1,4 +1,4 @@
-# slush-gopackage [![Build Status](https://secure.travis-ci.org/chrisenytc/slush-gopackage.png?branch=master)](https://travis-ci.org/chrisenytc/slush-gopackage) [![NPM version](https://badge-me.herokuapp.com/api/npm/slush-gopackage.png)](http://badges.enytc.com/for/npm/slush-gopackage)
+# Slush Go Package [![NPM version](https://badge-me.herokuapp.com/api/npm/slush-gopackage.png)](http://badges.enytc.com/for/npm/slush-gopackage)
 
 > A slush generator for create go packages
 
