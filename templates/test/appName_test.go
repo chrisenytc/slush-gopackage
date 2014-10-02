@@ -6,15 +6,16 @@
  * Licensed under the <%= license %> license.
  */
 
-package lib
+package main
 
 import (
 	"testing"
+	"github.com/<%= userName %>/<%= appNameSlug %>"
 )
 
 func TestReturnMsg(t *testing.T) {
 	msg := "Testing Message func"
-	testMsg := ReturnMsg(msg)
+	testMsg := <%= appNameSlug %>.ReturnMsg(msg)
 	if msg != testMsg {
 		t.Errorf("'%s' is different of '%s'", msg, testMsg)
 	}

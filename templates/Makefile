@@ -6,6 +6,6 @@
 
 
 test:
-	go test ./lib
+	go test -v ./test
 
 .PHONY: test

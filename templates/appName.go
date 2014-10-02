@@ -6,22 +6,12 @@
  * Licensed under the <%= license %> license.
  */
 
-package main
+package <%= appNameSlug %>
 
 /*
  * Dependencies
  */
 
-import (
-	"fmt"
-	"github.com/<%= userName %>/<%= appNameSlug %>/lib"
-)
-
-/*
- * Main application
- */
-
-func main() {
-	msg := lib.ReturnMsg("Welcome to Go Package")
-	fmt.Println(msg)
+func ReturnMsg(msg string) string {
+	return msg
 }

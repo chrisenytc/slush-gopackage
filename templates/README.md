@@ -6,7 +6,7 @@
 
 ## Getting Started
 
-1º Clone Go Package repo
+1º Clone <%= appName %> repo
 
 ```bash
 $ git clone https://github.com/<%= userName %>/<%= appNameSlug %>.git
